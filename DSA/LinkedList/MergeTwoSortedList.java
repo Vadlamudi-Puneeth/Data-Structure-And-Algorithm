@@ -64,6 +64,8 @@ public class MergeTwoSortedList {
             tail.next = temp2;
         }
 
+        return dummy.next;
+
     }
     public static void main(String args[]){
        
