@@ -47,7 +47,7 @@ public class RotateList {
         }
 
         Node newhead = newTail.next;
-        // newTail.next = null;
+        newTail.next = null;
 
         return newhead;
 
